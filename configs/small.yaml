@@ -1,0 +1,12 @@
+# Free Kaggle/Colab GPU: ~4-8 h total across resumed sessions.
+dataset: qm9
+epochs: 200
+batch_size: 128
+lr: 0.0001
+nf: 128
+layers: 4
+T: 1000
+schedule: cosine
+eval_every: 5
+eval_samples: 500
+eval_steps: 100
