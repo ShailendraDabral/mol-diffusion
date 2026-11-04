@@ -1,0 +1,13 @@
+torch>=2.2
+numpy
+pyyaml
+matplotlib
+pillow
+rdkit
+gradio>=4
+py3Dmol
+# only needed to download/load real QM9 (not needed for --dataset smiles smoke tests)
+torch_geometric
+# optional
+# wandb
+# pytest
